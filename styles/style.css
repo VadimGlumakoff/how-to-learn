@@ -13,6 +13,12 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  align-items: center;
+
+
+  
+
   /* выше установили ограничения для секции */
 }
 
@@ -28,4 +34,36 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+
+.logo_place_header{
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+}
+
+.title_header{
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  position: relative;
+  width: 730px;
+  margin-left: 64px;
+  
+}
+
+.subtitle_header{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.main-illustration_header{
+  background-image: url(images/header-image.png);
 }
