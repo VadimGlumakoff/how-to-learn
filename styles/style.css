@@ -12,6 +12,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
 }
 
 .header {
@@ -21,6 +22,7 @@
   display: flex;
   align-items: center;
   background-color:  #f2f2f2;
+  position: relative;
   
 
 
@@ -38,15 +40,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  z-index: 1;
 }
 
 .logo_place_header{
@@ -143,6 +136,7 @@
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 .section-subtitle{
@@ -157,12 +151,13 @@
   width: 1100px;
   margin: auto;
   justify-content: space-between;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .table__cell{
   width: 250px;
   margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 .table__heading{
@@ -225,6 +220,7 @@
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
+  overflow: hidden;
 }
 
 .kaufman__triangle{
@@ -235,6 +231,13 @@
   right: -210px;
   overflow: hidden;
   z-index: 0;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-top: 80px;
+  z-index: 1;
 }
 
 .section-title_theme_dark{
