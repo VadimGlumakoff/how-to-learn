@@ -115,6 +115,7 @@
 .two-colums__paragraph {
   margin-top: 30px;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .two-colums__paragraph:first-of-type {
@@ -174,6 +175,7 @@
   font-weight: normal;
   margin-top: 20px;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -200,6 +202,7 @@
   text-align: center;
   margin-top: 70px;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .feynman__link {
@@ -323,6 +326,7 @@
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
  
