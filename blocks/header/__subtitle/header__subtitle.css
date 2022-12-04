@@ -5,7 +5,7 @@
     position: absolute;
     bottom: 30px;
     left: 64px;
-    width: 338px;
+    max-width: 388px;
     color: #000000;
     margin: 0;
     z-index: 3;
